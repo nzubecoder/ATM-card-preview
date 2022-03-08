@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 200px;
+    color:white;
+}
+.card{
+    width: 490px;
+    height: 340px;
+    position: relative;
+    background-color: rgb(216, 107, 107);
+    border-radius: 5px;
+    padding: 1em;
+}
+.card .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h1{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.h2{
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.img > img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+}
+.card .cid{
+   display: flex;
+   justify-content: space-between;
+   margin-left: 8%;
+   margin-right: 8%;
+   font-size: 30px;
+}
+.cid .num .syz{
+    display: inline-block;
+}
+.card .expiring{
+    margin-top: 10px;
+    font-size: 8px;
+    color: black;
+}
+.card .bottom{
+    display: flex;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 2px 4px;
+    justify-content: space-between;
+    font-size: 14px;
+    width: 100%;
+
+}
+.card .bottom .card-holder{
+    width: 150px;
+    height: 22px;
+}
+.card .bottom img{
+    width: 100px;
+    height: auto;
+
+}
+
